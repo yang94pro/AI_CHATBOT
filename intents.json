@@ -1,0 +1,47 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hi, dumbass"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+                "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+                "responses": ["Happy to help!", "Any time!", "My pleasure"],
+                "context": [""]
+        },
+  
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Thank you for your input, bye", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 1 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "who are you","what should I call you", "whats your name?"],
+         "responses": ["You can call me Sherlock.", "My name is Sherlock, you dumbass"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "badword",
+                "patterns": ["fuck","motherfucker", "fuck you", "damn you","shut up","shit","bastard"],
+                "responses": ["Ooh, you bastard!","Please be civiliazed","Dear God, what is it like in your funny little brains? It must be so boring!","Ooh, so you are one of them", "Don't let it get to you. I always feel like screaming when you walk into a room. In fact, so do most people."],
+                "context_set": ""
+        }
+
+
+
+   ]
+}
